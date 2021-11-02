@@ -48,6 +48,7 @@ service:
 
 ingress:
   enabled: true
+  className: ""
   annotations: {}
     # kubernetes.io/tls-acme: "true"
   hosts:
